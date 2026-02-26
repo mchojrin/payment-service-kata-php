@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1772118120">
+  <project timestamp="1772118120" name="Clover Coverage">
+    <package name="Leewayweb\PaymentServiceKata">
+      <file name="/mnt/data/Code/payment-service-kata-php/src/FraudService.php">
+        <class name="Leewayweb\PaymentServiceKata\FraudService" namespace="Leewayweb\PaymentServiceKata">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="isBlacklisted" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+      <file name="/mnt/data/Code/payment-service-kata-php/src/PaymentGateway.php">
+        <class name="Leewayweb\PaymentServiceKata\PaymentGateway" namespace="Leewayweb\PaymentServiceKata">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="7" type="method" name="sendPayment" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="9" type="stmt" count="0"/>
+        <metrics loc="11" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+      <file name="/mnt/data/Code/payment-service-kata-php/src/PaymentService.php">
+        <class name="Leewayweb\PaymentServiceKata\PaymentService" namespace="Leewayweb\PaymentServiceKata">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="12" type="method" name="tryToPay" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="14" type="stmt" count="2"/>
+        <line num="15" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <metrics files="3" loc="42" ncloc="42" classes="3" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="3" elements="9" coveredelements="5"/>
+  </project>
+</coverage>
